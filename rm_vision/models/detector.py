@@ -38,7 +38,7 @@ def draw_contours_and_count(img, mask, name):
     return result, apple_count
 # 主函数
 if __name__ == '__main__':
-    image_names = [f"/home/nico/文档/python/rm_vision/models/apple/{i}.png" for i in range(1, 9)]
+    image_names = [f"/home/nico/Code1120/rm_vision/models/apple/{i}.png" for i in range(1, 9)]
     cv2.namedWindow("result", cv2.WINDOW_NORMAL)
     cv2.resizeWindow("result", 800, 600)
     for name in image_names:

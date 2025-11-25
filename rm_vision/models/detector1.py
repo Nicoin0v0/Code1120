@@ -107,7 +107,7 @@ def detector(img_raw):
     cv2.imshow("ARMOR", img_armor)
     return armors_center
 if __name__ == "__main__" :
-    img_paths = [f"/home/nico/文档/python/rm_vision/models/armor/{i}.png" for i in range(1, 13)]
+    img_paths = [f"/home/nico/Code1120/rm_vision/models/armor/{i}.png" for i in range(1, 13)]
     for name in img_paths:
         img = cv2.imread(name)
         armors_center = detector(img)
